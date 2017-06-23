@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<title>IMAGE GALLERY</title>
+<base href="F:/pics/">
+<meta charset="utf-8">
+<meta name="description" content="image gallery">
+<meta name="author" content="VEDANT">
+  <meta http-equiv="Content-Type" content="text/html">
+  <link rel="stylesheet" type="text/css" media="all" href="F:/pics/jqery.lightbox-0.5.css">
+
+<script type="text/javascript" src="F:/pics/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="F:/pics/jquery.lightbox-0.5.min.js"></script>
+   <style>
+   topbar
+{
+	background:#4f4a41;
+	padding:10px 0 10px 0;
+	text-align:center;
+	height:35px;
+	transition:height 0.5s linear;
+}
+h1
+{
+	font-family:italic;
+	font-size:2.5em;
+	line-height:1.5em;
+	margin-bottom:20px;
+	padding:0.1em 0;
+	color:#444;
+	position:relative;
+	text-align:center;
+}
+
+
+p {
+  display: block;
+  font-size: 1.35em;
+  line-height: 1.5em;
+  margin-bottom: 22px;
+}
+
+#lightbox-container-image-data-box
+{
+	-webkit-box-sizing:content-box;
+}
+
+abc
+{
+	display:block;
+	width:750px;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+content
+{
+	display:block;
+	width:100%;
+	background:#fff;
+	padding:25px 20px;
+	padding-bottom:35px;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 0px 1px 2px 0px;
+}
+   
+   </style>
+  
+  
+</head>
+<body>
+<div id="topbar">SCROLL THE IMAGES</div>
+
+<div id="abc">
+
+<h1>GALLERY</h1>
+<p>jQuery lightbox plugin</p>
+
+<div id="content">
+<figure>
+<figcation>IMAGE 1</figcaption>
+
+<img src="img1" alt="IMAGE"></div>         
+
+<div id="content">
+<figure>
+<figcation>IMAGE 2</figcaption>
+
+<img src="img2" alt="IMAGE"></div>
+
+<div id="content">
+<figure>
+<figcation>IMAGE 3</figcaption>
+
+<img src="img3" alt="IMAGE"></div>
+
+<div id="content">
+<figure>
+<figcation>IMAGE 4</figcaption>
+
+<img src="img4" alt="IMAGE"></div>
+
+<div id="content">
+<figure>
+<figcation>IMAGE 5</figcaption>
+<img src="img5" alt="IMAGE"></div>
+</div>
+<script type="text/javascript">
+  $(function() {
+  $('#thumnbnails a').lightbox();
+  });
+  </script>
+
+</body>
+
+</html>
